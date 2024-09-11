@@ -1,44 +1,16 @@
+/* pages */
+@import url("css/home.css");
+@import url("css/about.css");
+@import url("css/projects.css");
+@import url("css/contact.css");
+
+/* layout */
+@import url("css/layout/navbar.css");
+@import url("css/layout/leader.css");
+
 body{
     margin: 0;
     font-size: 1em;
     font-family: "Inter", sans-serif;
     height: 100%;
-
-}
-
-.navbar-container{
-    max-width: 1340px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em;
-    font-weight: 800;
-
-    ul{
-        list-style: none; 
-        padding: 0;
-        margin: 0;
-        display: flex;
-
-        .navbar-social-link{
-            margin-left: 0.5em;
-            margin-right: 0.5em;
-            
-        }
-        
-        .navbar-social-link:hover{
-            fill: url(#hover-gradient);
-        }
-
-        .navbar-link{
-            margin-left: 1em;
-            margin-right: 1em;    
-        }
-    }
-
 }

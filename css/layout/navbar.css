@@ -1,0 +1,37 @@
+.navbar-container{
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    font-weight: 800;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+
+    ul{
+        list-style: none; 
+        padding: 0;
+        margin: 0;
+        display: flex;
+
+        .navbar-social-link{
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+            
+        }
+        
+        .navbar-social-link:hover{
+            fill: url(#hover-gradient);
+        }
+
+        .navbar-link{
+            margin-left: 1em;
+            margin-right: 1em;    
+        }
+    }
+
+}
