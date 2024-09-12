@@ -6,7 +6,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em;
+    padding-left: 2em; 
+    padding-right: 2em;
     font-weight: 800;
     max-width: 1340px;
     margin-left: auto;
@@ -23,6 +24,7 @@
             margin-right: 0.5em;
             
         }
+
         
         .navbar-social-link:hover{
             fill: url(#hover-gradient);
@@ -31,12 +33,37 @@
         .navbar-link{
             margin-left: 1em;
             margin-right: 1em;
+            padding-top: 2.5em;
+            padding-bottom: 2em;
 
             a{
                 text-decoration: none;
                 color: black;  
+
             }
+
+            &.active{
+                border-style: solid;
+                border-image-slice: 1;
+                border-width: 0.5em;
+                border-left: 0;
+                border-right: 0;
+                border-top: 0;
+                border-image-source: linear-gradient(90deg, rgba(254, 102, 17, 1) 0%, rgba(243, 51, 189, 1) 100%);
+            }
+
         }
+
+        .navbar-link:hover{
+            border-style: solid;
+                border-image-slice: 1;
+                border-width: 0.5em;
+                border-left: 0;
+                border-right: 0;
+                border-top: 0;
+                border-image-source: linear-gradient(90deg, rgba(254, 102, 17, 0.5) 0%, rgba(243, 51, 189, 0.5) 100%);
+        }
+
     }
 
 }
