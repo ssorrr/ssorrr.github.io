@@ -1,0 +1,66 @@
+.skills-section-container{
+    background-color: white;
+
+    .skills-section{
+        max-width: 1340px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+
+        h1{
+            text-align: center;
+        }
+
+        .skills{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+            grid-gap: 1em;
+
+            .skill{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .skill-title{
+                    font-weight: 800;
+                    font-size: 1.2em;
+                }
+
+                .skill-title::after{
+                    content: "";
+                    display: block;
+                    background: linear-gradient(90deg, rgba(254, 102, 17, 1) 0%, rgba(243, 51, 189, 1) 100%);
+                    width: 2em;
+                    height: 0.35em;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 1em;
+                }
+
+            }
+
+        }
+
+        .section-end-btn-container{
+            text-align: center;
+            padding: 2em;
+
+            .section-end-btn{
+                background: linear-gradient(90deg, rgba(254, 102, 17, 1) 0%, rgba(243, 51, 189, 1) 100%);
+                color: white;
+                padding: 0.5em 2.75em;
+                cursor: pointer;
+                border-radius: 10px;
+                font-weight: 800;
+                font-size: 1.75em;
+            }
+        }
+
+    }
+
+}
+
+.projects-section-container{
+    background-color: #E9E0E0;
+}
