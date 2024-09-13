@@ -1,0 +1,33 @@
+/* pages */
+@import url("css/home.css");
+@import url("css/about.css");
+@import url("css/projects.css");
+@import url("css/contact.css");
+
+/* layout */
+@import url("css/layout/navbar.css");
+@import url("css/layout/leader.css");
+@import url("css/layout/footer.css");
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 1em;
+    font-family: "Inter", sans-serif;
+    height: 100%;
+}
+
+.page-section{
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+
+    h1{
+        text-align: center;
+    }
+
+}
