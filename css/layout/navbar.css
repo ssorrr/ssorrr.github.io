@@ -1,3 +1,11 @@
+.featured-banner{
+    background: linear-gradient(90deg, rgba(254, 102, 17, 1) 0%, rgba(243, 51, 189, 1) 100%);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5em;
+}
+
 .navbar-container{
     background-color: white;
     position: sticky;
