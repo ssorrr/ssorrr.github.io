@@ -68,14 +68,31 @@
 
         }
 
-        .navbar-link:hover{
+        .navbar-menu{
+            display: none;
+            margin-left: 1em;
+            margin-right: 1em;
+            padding-top: 2.5em;
+            padding-bottom: 2.5em;
+
+            @media(max-width: 550px){
+                display: block;
+            }
+
+        }
+
+        .navbar-menu:hover{
+            fill: url(#hover-gradient);
+        }
+
+        .navbar-link:not(.navbar-menu):hover{
             border-style: solid;
-                border-image-slice: 1;
-                border-width: 0.5em;
-                border-left: 0;
-                border-right: 0;
-                border-top: 0;
-                border-image-source: linear-gradient(90deg, rgba(254, 102, 17, 0.5) 0%, rgba(243, 51, 189, 0.5) 100%);
+            border-image-slice: 1;
+            border-width: 0.5em;
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-image-source: linear-gradient(90deg, rgba(254, 102, 17, 0.5) 0%, rgba(243, 51, 189, 0.5) 100%);
         }
 
     }
