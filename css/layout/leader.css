@@ -4,6 +4,10 @@
 
 .content-box-container{
     padding: 8em;
+    @media(max-width: 845px){
+        padding-left: 4em;
+        padding-right: 4em;
+    }
 }
 
 .leader{
@@ -21,6 +25,16 @@
 .content-box{
     background-color: white;
     border-radius: 0.5em;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .content-box-title{
+        text-align: center;
+        font-size: 3em;
+    }
+
 }
 
 .content-box-content{
