@@ -2,6 +2,14 @@
     background: linear-gradient(90deg, rgba(254,102,17,1) 0%, rgba(243,51,189,1) 100%);
 }
 
+.content-box-container{
+    padding: 8em;
+    @media(max-width: 845px){
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+}
+
 .leader{
     color: white;
     max-width: 1340px;
@@ -12,4 +20,25 @@
 
 .leader-title{
     font-size: 60px;
+}
+
+.content-box{
+    background-color: white;
+    border-radius: 0.5em;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .content-box-title{
+        text-align: center;
+        font-size: 3em;
+    }
+
+}
+
+.content-box-content{
+    background-image: linear-gradient(90deg, rgba(254,102,17,1) 0%, rgba(243,51,189,1) 100%);
+    color: transparent;
+    background-clip: text;
 }
