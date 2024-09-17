@@ -22,6 +22,26 @@
     font-size: 60px;
 }
 
+.leader-btn-container{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+    .leader-btn{
+        background: white;
+        color: black;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 1em;
+        text-decoration: none;
+
+        &:hover{
+            background-color: #f0f0f0;
+        }
+    }
+}
+
 .content-box{
     background-color: white;
     border-radius: 0.5em;
