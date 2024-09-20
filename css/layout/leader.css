@@ -43,6 +43,22 @@
     }
 }
 
+.leader-quotes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    p{
+        text-align: center;
+        width: 50%;
+
+        @media(max-width: 930px){
+          width: 80%;  
+        }
+    }
+
+}
+
 .content-box{
     background-color: white;
     border-radius: 0.5em;
