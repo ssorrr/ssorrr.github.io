@@ -27,17 +27,18 @@
     padding-bottom: 2em;
     
     .leader-btn{
-        background: white;
-        color: black;
+        background: transparent;
+        color: white;
         padding: 0.5em 1em;
         cursor: pointer;
         border-radius: 10px;
         font-weight: 800;
         font-size: 1em;
         text-decoration: none;
+        border: 0.25em solid white;
 
         &:hover{
-            background-color: #f0f0f0;
+            border-color: #f0f0f0;
         }
     }
 }
