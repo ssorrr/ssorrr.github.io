@@ -22,6 +22,43 @@
     font-size: 60px;
 }
 
+.leader-btn-container{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+    .leader-btn{
+        background: transparent;
+        color: white;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 1em;
+        text-decoration: none;
+        border: 0.25em solid white;
+
+        &:hover{
+            border-color: #f0f0f0;
+        }
+    }
+}
+
+.leader-quotes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    p{
+        text-align: center;
+        width: 50%;
+
+        @media(max-width: 930px){
+          width: 80%;  
+        }
+    }
+
+}
+
 .content-box{
     background-color: white;
     border-radius: 0.5em;
