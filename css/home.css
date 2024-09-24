@@ -84,7 +84,7 @@
     }
 }
 
-.projects{
+.home-projects{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -97,7 +97,7 @@
     }
 
 
-    .project{
+    .home-project{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -110,14 +110,14 @@
             margin-bottom: 1em;
         }
 
-        .project-title{
+        .home-project-title{
             font-weight: 800;
             font-size: 1.3em;
             margin-top: 0.5em;
             margin-bottom: 0.5em;
         }
 
-        .project-desc{
+        .home-project-desc{
             margin: 0;
 
             &.no-button::after{
@@ -134,7 +134,7 @@
 
     }
 
-    .project-alt{
+    .home-project-alt{
         justify-content: flex-start;
     }
 

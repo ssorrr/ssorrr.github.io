@@ -26,7 +26,7 @@ body{
     margin-right: auto;
     padding: 1em;
 
-    h1{
+    .page-section-title{
         text-align: center;
     }
 
