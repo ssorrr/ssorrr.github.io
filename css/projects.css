@@ -5,3 +5,19 @@
 .project-align-left{
     text-align: left;
 }
+
+.project{
+    /* background-color: white; */
+}
+
+.project-alt{
+
+    
+    img{
+        height: 500px;
+        width: 500px;
+    }
+}
+
+
+
