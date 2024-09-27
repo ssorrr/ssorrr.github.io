@@ -42,10 +42,8 @@
         flex-direction: column;
 
         img{
-            margin-left: auto;
-            margin-right: auto;
-            width: 70%;
-            height: auto;
+        
+            display: none;
         }
 
         .project-content{
