@@ -29,22 +29,17 @@
 }
 
 .project{
-
-
-    img{
-        height: 500px;
-        width: 500px;
-    }
     display: flex;
     justify-content: space-between;
 
-    @media(max-width: 1000px){
+    @media(max-width: 1340px){
         flex-direction: column;
 
-        img{
-        
-            display: none;
+        .project-img{
+            width: 100%;
+            height: 50%;
         }
+    
 
         .project-content{
             width: 100%;
@@ -57,8 +52,12 @@
 }
 
 .project-content{
-    width: 60%;
+    width: 55%;
     padding: 2em;
+}
+
+.project-img{
+    width: 45%;
 }
 
 
