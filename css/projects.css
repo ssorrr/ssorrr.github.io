@@ -33,6 +33,25 @@
     justify-content: space-between;
 
     @media(max-width: 1340px){
+
+        .project-img{
+            width: 55%;
+        }
+    
+
+        .project-content{
+            font-size: 0.9em;
+            width: 40%;
+        }
+    }
+
+    @media (max-width: 970px) {
+        .project-content{
+            font-size: 0.7em;
+        }
+    }
+
+    @media(max-width: 780px){
         flex-direction: column;
 
         .project-img{
@@ -43,12 +62,14 @@
 
         .project-content{
             width: 100%;
+            font-size: 1em;
 
             &::after{
                 width: 10em;
             }
         }
     }
+
 }
 
 .project-content{
