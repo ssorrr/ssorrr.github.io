@@ -13,6 +13,18 @@
 
     <body>
 
+        <div id="mobileNav" class="mobile-nav">
+
+            <a href="javascript:void(0)" class="mobile-nav-close-btn" onclick="closeMobileNav()"><img src="media/icons/cross.svg"></a>
+          
+            <div class="mobile-nav-links">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="projects.html">My Projects</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          
+        </div>
 
         <div class="navbar-container">
             <div class="featured-banner"><span>Work In Progress</span></div>
@@ -36,11 +48,11 @@
                     <li class="navbar-link active"><a href="about.html">About</a></li>
                     <li class="navbar-link"><a href="projects.html">My Projects</a></li>
                     <li class="navbar-link"><a href="contact.html">Contact</a></li>
-                    <li class="navbar-link navbar-menu"><a><img src="media/icons/menu.svg"></a></li>
+                    <li class="navbar-link navbar-menu" id="mobileNavButton" onclick="openMobileNav()"><a><img src="media/icons/menu.svg"></a></li>
                 </ul>
             </nav>
         </div>
-
+        <script src="js/main.js"></script>
     
 
         <div class="leader-container">
@@ -114,7 +126,7 @@
                             </p>
                         </div>
                         <div class="quote">
-                            <p><i>“In my current role as a data scientist, I needed to expand my skillset in web-development.  Ross played a pivotal role in this journey as a mentor, simplifying complex concepts and making them approachable. Ross’s communication skills and focus on details helped me gain a better understanding of web development. I am excited about our continued collaboration and how Ross will continue to help me in the future.”</i> 
+                            <p><i>“In my current role as a data scientist, I needed to expand my skillset in web-development.  Ross played a pivotal role in this journey as a mentor, simplifying complex concepts and making them approachable. Ross’s communication skills and focus on detail helped me gain a better understanding of web development. I am excited about our continued collaboration and how Ross will continue to help me in the future.”</i> 
 
                                 <br>
                                 <br>

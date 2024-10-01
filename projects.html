@@ -13,6 +13,18 @@
 
     <body>
 
+        <div id="mobileNav" class="mobile-nav">
+
+            <a href="javascript:void(0)" class="mobile-nav-close-btn" onclick="closeMobileNav()"><img src="media/icons/cross.svg"></a>
+          
+            <div class="mobile-nav-links">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="projects.html">My Projects</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          
+        </div>
 
         <div class="navbar-container">
             <div class="featured-banner"><span>Work In Progress</span></div>
@@ -36,11 +48,11 @@
                     <li class="navbar-link"><a href="about.html">About</a></li>
                     <li class="navbar-link active"><a href="projects.html">My Projects</a></li>
                     <li class="navbar-link"><a href="contact.html">Contact</a></li>
-                    <li class="navbar-link navbar-menu"><a><img src="media/icons/menu.svg"></a></li>
+                    <li class="navbar-link navbar-menu" id="mobileNavButton" onclick="openMobileNav()"><a><img src="media/icons/menu.svg"></a></li>
                 </ul>
             </nav>
         </div>
-
+        <script src="js/main.js"></script>
     
 
         <div class="leader-container">
@@ -49,17 +61,17 @@
                     <h1 class="leader-title">My Projects</h1>
                     <p class="leader-description">Throughout my education and professional experience, I have worked on lots of different projects that have tested my understanding of software development and introduced me to new technologies and ways of working. Below are some of the projects I've worked on previously, or am working on at the moment.
                     </p>
-                    <div class="leader-btn-container"><a class="leader-btn" href="" download>View my portfolio</a></div>
+                    <div class="leader-btn-container"><a class="leader-btn" href="https://1drv.ms/f/c/94d301f8cbb5c832/EnTYZATVMGFMqicGJBgmwZcBHPuKuSLKYVCxHIrqlQggpQ">View my portfolio</a></div>
                 </div>
                 <img class="leader-image" src="">
             </div>
         </div>
 
-        <div class="section-container">
+        <div class="section-container" id="game-project">
             <div class="page-section" style="padding: 0;">
                 <div class="project project-align-right">
                     <img class="project-img"  src="media/images/trench-defence.jpg" alt="Trench Defence Project">
-                    <div class="project-content" id="trench-defence-project">
+                    <div class="project-content">
                         <h1>Trench Defence Game</h1>
                         <p>I built this game for my final project as part of my A Level Computer Science course.
                             I was inspired by retro games and flash games I used to play when I was in primary school.
@@ -75,11 +87,11 @@
             </div>
         </div>
 
-        <div class="section-alt-container">
+        <div class="section-alt-container" id="portfolio-project">
             <div class="page-section" style="padding: 0;" >
                 <div class="project project-align-left">
                     <img class="project-img" src="media/images/generic-html.png" alt="Code snippet">
-                    <div class="project-content" id="portfolio-project">
+                    <div class="project-content">
                         <h1>Apprenticeship Portfolio</h1>
                         <p>
                             As an apprentice, I had to build a portfolio of the kinds of web development work I was doing day-to-day. 

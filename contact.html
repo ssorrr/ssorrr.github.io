@@ -13,6 +13,18 @@
 
     <body>
 
+        <div id="mobileNav" class="mobile-nav">
+
+            <a href="javascript:void(0)" class="mobile-nav-close-btn" onclick="closeMobileNav()"><img src="media/icons/cross.svg"></a>
+          
+            <div class="mobile-nav-links">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="projects.html">My Projects</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          
+        </div>
 
         <div class="navbar-container">
             <div class="featured-banner"><span>Work In Progress</span></div>
@@ -36,18 +48,11 @@
                     <li class="navbar-link"><a href="about.html">About</a></li>
                     <li class="navbar-link"><a href="projects.html">My Projects</a></li>
                     <li class="navbar-link active"><a href="contact.html">Contact</a></li>
-                    <li class="navbar-link navbar-menu"><a><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                    <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
-                    <defs>
-                        <linearGradient id="hover-gradient">
-                            <stop offset="5%" stop-color="#FE6611" />
-                            <stop offset="95%" stop-color="#F333BD" />
-                        </linearGradient>
-                    </defs>
-                    </svg></a></li>
+                    <li class="navbar-link navbar-menu" id="mobileNavButton" onclick="openMobileNav()"><a><img src="media/icons/menu.svg"></a></li>
                 </ul>
             </nav>
         </div>
+        <script src="js/main.js"></script>
 
         <div class="leader-container content-box-container">
             <div class="leader content-box">
