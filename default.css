@@ -38,3 +38,15 @@ body{
     background-color: white;
     position: relative;
 }
+
+.width-45{
+    @media(min-width: 550px){
+        width: 45%;
+    }
+}
+
+.width-65{
+    @media(min-width: 1090px){
+        width: 65%;
+    }
+}
